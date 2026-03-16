@@ -1,4 +1,5 @@
-# --- for Windows 
+# --- requirements.txt for Windows ---
+
 # --- Core Network & Binance API ---
 python-binance==1.0.29
 websockets==9.1
@@ -9,7 +10,11 @@ pandas==2.3.1
 numpy==1.26.4
 
 # --- Technical Analysis ---
-ta-lib==0.4.32
+# ⚠️ TA-LIB NOTICE: 
+# TA-Lib is excluded from this file because it must be installed via Conda to avoid Windows build errors.
+# If you haven't installed it yet, the bot will fail! 
+# PLEASE READ the "Prerequisites" section in README.md before proceeding.
+# (Expected: ta-lib==0.4.32 via conda-forge)
 
 # --- Visualization & Web Server ---
 bokeh==3.4.3
