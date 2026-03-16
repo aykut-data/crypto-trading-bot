@@ -70,7 +70,7 @@ The ``` finally.py ``` script has been fine-tuned based on these 15-minute DOGE 
 Please take this into account for your own safety.
 
 ### Phase 3: Live Trading
-Start the live bot and visual dashboard: ``` python src/finally.py ```
+Start the live bot and visual dashboard: ``` bokeh serve --show src/finally.py ```
 
 ## 📊 Technical Highlights
 Code Symmetry: All indicator scripts across timeframes (15m, 1h, 4h, 1d) share identical logic and output formats.
