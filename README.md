@@ -22,6 +22,13 @@ C:...
 │   ├── data_fetchers       # Binance historical data collection
 │   └── indicators          # "Golden Standard" indicator calculators
 └── notebooks               # Research, development, and analysis lab
+
+### 🧪 Research & Development Lab (`/notebooks`)
+This directory is the **R&D center** of the project. It is dedicated to quantitative research, strategy testing, and parameter optimization.
+
+* **Planned Activities:** Advanced optimization of **indicators and strategy parameters** to maintain high performance across varying market conditions.
+* **Community & Personal Contributions:** You are more than welcome to use this space for your own research!
+Feel free to create your own **.ipynb (notebooks)** for visual analysis or **.py (scripts)** to test different strategies and share your fine-tuned settings.
 ```
 ---
 
